@@ -18,12 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  const aurora = new Aurora(cpuIcon, playerIcon);
   function CPUPlay() {
     let move = aurora.calculateBestMove(cells);
     computerInputMove(move);
   }
-  window.CPUPlay = CPUPlay;
+
   function handlePlayerMove(event) {
     if (gameFrozen) return;
     if (!playerTurn) return;
