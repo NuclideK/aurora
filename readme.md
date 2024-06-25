@@ -11,3 +11,6 @@ I got stuck for a solid 30 minutes just because I had a return statement inside 
 Please do note that this is basically as inefficient as it gets, just for my purpose it works, as I've said in a code comment; "That is terribly inefficient, but I have a fast CPU and 0 fucks to give."
 
 TLDR; Depressed programmer had nothing better to do than to code a tic-tac-toe bot from scratch with 0 references
+
+
+## Live version: [aurora.taro.tf](https://aurora.taro.tf)
